@@ -1,0 +1,2 @@
+Gene	Protein
+RPS6KB1 [Homo sapiens]	ribosomal protein S6 kinase, 70kDa, polypeptide 1 [Homo sapiens]

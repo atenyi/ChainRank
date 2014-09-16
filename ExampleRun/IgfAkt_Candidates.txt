@@ -1,0 +1,2 @@
+Gene	Protein
+IGF1 [Homo sapiens]	insulin-like growth factor 1 (somatomedin C) [Homo sapiens]
