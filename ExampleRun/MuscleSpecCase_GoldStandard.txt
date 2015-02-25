@@ -1,5 +1,4 @@
 Protein	Gene
-insulin-like growth factor 1 (somatomedin C) [Homo sapiens]	IGF1 [Homo sapiens]
 insulin-like growth factor 1 receptor precursor [Homo sapiens]	IGF1R [Homo sapiens]
 phosphoinositide-3-kinase, regulatory subunit, polypeptide 1 isoform 2 [Homo sapiens]	PIK3R1 [Homo sapiens]
 insulin receptor substrate 1 [Homo sapiens]	IRS1 [Homo sapiens]
@@ -12,4 +11,3 @@ FK506 binding protein 12-rapamycin associated protein 1 [Homo sapiens]	FRAP1 [Ho
 raptor [Homo sapiens]	raptor [Homo sapiens]
 rapamycin-insensitive companion of mTOR [Homo sapiens]	RICTOR [Homo sapiens]
 eukaryotic translation initiation factor 4B pseudogene [Homo sapiens]	EIF4BP [Homo sapiens]
-ribosomal protein S6 kinase, 70kDa, polypeptide 1 [Homo sapiens]	RPS6KB1 [Homo sapiens]

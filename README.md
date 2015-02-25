@@ -8,4 +8,4 @@ Results: Our method, named ChainRank, finds relevant sub-networks by identifying
 
 =========
 
-The ChainRank.R file contains the ChainRank algorithm. An example run is also available to test the algorithm. The ExampleRun folder contains the necessary data files and the IGF_run.R file which contains the script for the example. The scenario aims to recreate the IGF-Akt pathway explained in (Schiaffino and Mammucari, 2011) and reported in (Tenyi et al., 2014). There are two pre processed network available for testing, explained in (Tenyi et. al, 2014) Supplementary file. 
+The ChainRank.R file contains the ChainRank algorithm. An example run is also available to test the algorithm. The ExampleRun folder contains the necessary data files and the MuscleSpecCase_run.R file which contains the script for the example. The scenario aims to recreate the IGF-Akt pathway explained in (Schiaffino and Mammucari, 2011) and reported in (Tenyi et al., 2015).
