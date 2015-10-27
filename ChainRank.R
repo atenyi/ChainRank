@@ -353,7 +353,7 @@ GenerateOutput <- function(chains, length, scores, name) {
 #   RetRanks - Boolean, if true results are returned as ranks instead of scores.
 # 
 # Returns:
-#   A list containing [[1]] Chains with chain scores, [[2]] 
+#   A data frame with the Chains and their chain scores
 RunChainSearch <- function(Network, NetworkScores, Candidates, Targets, maxDepth = 5,
     file=NULL, RetRanks = FALSE) {
     result = tryCatch({
