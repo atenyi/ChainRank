@@ -11,8 +11,11 @@ Results: Our method, named ChainRank, finds relevant sub-networks by identifying
 The ChainRank.R file contains the ChainRank algorithm. An example run is also available to test the algorithm. The ExampleRun folder contains the necessary data files and the MuscleSpecCase_run.R file which contains the script for the example. The scenario aims to recreate the IGF-Akt pathway explained in (Schiaffino and Mammucari, 2011) and reported in (Tenyi et al., 2015).
 
 Usage:
+
   RunChainSearch(Network, NetworkScores, Candidates, Targets, maxDepth = 5,file=NULL, RetRanks = FALSE)
+  
   Args:
+  
     Network: input network, edge list of IDs, 2 x n matrix
     NetworkScore: score(s) of the nodes, n x m matrix where 1st col is ID
     Candidates: ID(s) of candidates
@@ -22,4 +25,5 @@ Usage:
     RetRanks - Boolean, if true results are returned as ranks instead of scores.
   
   Returns:
+  
     A data frame with the Chains and their chain scores
