@@ -18,8 +18,8 @@ The ChainRank.R file contains the ChainRank algorithm. An example run is also av
   
     Network: input network, edge list of IDs, n x 2 matrix
     NetworkScore: score(s) of the nodes, n x m matrix where 1st col is ID
-    Candidates: ID(s) of candidates
-    Targets: ID(s) of candidates
+    Candidates: ID(s) of start proteins
+    Targets: ID(s) of end proteins
     maxDepth: maximal depth of the depth limited search
     file: output file name
     RetRanks - Boolean, if true results are returned as ranks instead of scores.
