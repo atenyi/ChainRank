@@ -16,7 +16,7 @@ The ChainRank.R file contains the ChainRank algorithm. An example run is also av
   
   Args:
   
-    Network: input network, edge list of IDs, 2 x n matrix
+    Network: input network, edge list of IDs, n x 2 matrix
     NetworkScore: score(s) of the nodes, n x m matrix where 1st col is ID
     Candidates: ID(s) of candidates
     Targets: ID(s) of candidates
