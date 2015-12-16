@@ -7,5 +7,6 @@ candidates <- read.delim("MuscleSpecCase_Candidates.txt", header=F, dec=",", col
 targets <- read.delim("MuscleSpecCase_Targets.txt", header=F, dec=",", colClasses = "character",stringsAsFactors=FALSE)[,1]
 validation <- read.delim("MuscleSpecCase_GoldStandard.txt", header=F, dec=",", colClasses = "character",stringsAsFactors=FALSE)[,1]
 maxLength <- 5
+pVal_iterations <- 1
 
-results <- RunChainSearch(network,elements,candidates,targets,maxDepth=maxLength,outfile,RetRanks=T)
+results <- RunChainSearch(network,elements,candidates,targets,maxDepth=maxLength,outfile,RetRanks=F,nPvalIter=pVal_iterations)
