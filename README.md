@@ -13,7 +13,7 @@ The ChainRank.R file contains the ChainRank algorithm. An example run is also av
 
   Usage:
 
-   RunChainSearch(Network, NetworkScores, Candidates, Targets, maxDepth = 5,file=NULL, RetRanks = FALSE)
+   RunChainSearch (Network, NetworkScores, Candidates, Targets, maxDepth = 5, file=NULL, RetRanks = FALSE, nPvalIter = 1)
   
   Args:
   
@@ -24,7 +24,8 @@ The ChainRank.R file contains the ChainRank algorithm. An example run is also av
     maxDepth: maximal depth of the depth limited search
     file: output file name
     RetRanks - Boolean, if true results are returned as ranks instead of scores.
-  
+    nPvalIter: number of random chain rank runs for p-value computation
+    
   Returns:
   
     A data frame with the Chains and their chain scores
